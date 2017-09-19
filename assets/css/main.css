@@ -2642,6 +2642,7 @@
 
 		.wrapper.style1 {
 			background-color: #21b2a6;
+			background-color: #089e36;
 			color: #c7ebe8;
 		}
 
@@ -2681,6 +2682,7 @@
 			}
 
 			.wrapper.style1 header.major p {
+				font-size: 1.2em;
 				color: #c7ebe8;
 			}
 
