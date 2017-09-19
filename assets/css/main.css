@@ -1412,6 +1412,8 @@
 
 	body, input, select, textarea {
 		color: #fff;
+		color: #00ffa5;
+		color:  #d3d4e4;
 		font-family: "Open Sans", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
@@ -1473,6 +1475,8 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
+		color: #00ffa5;
+		color:  #d3d4e4;
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
@@ -2684,10 +2688,12 @@
 			.wrapper.style1 header.major p {
 				font-size: 1.2em;
 				color: #c7ebe8;
+				color:  #d3d4e4;
 			}
 
 			.wrapper.style1 label {
 				color: #ffffff;
+				color:  #d3d4e4;
 			}
 
 			.wrapper.style1 input[type="text"],
@@ -2809,15 +2815,18 @@
 
 		.wrapper.style3 {
 			background-color: #505393;
+			background-color: #089e36;
 			color: #d3d4e4;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
 				color: #ffffff;
+				color:  #d3d4e4;
 			}
 
 			.wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
 				color: #ffffff;
+				color:  #d3d4e4;
 			}
 
 			.wrapper.style3 hr {
