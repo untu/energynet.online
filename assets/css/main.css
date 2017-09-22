@@ -3580,6 +3580,7 @@
         height: 74vh;
         background-size: cover;
         width: 100%;
+		min-height: 35em;
     }
 
 	body.is-loading #banner h2 {
