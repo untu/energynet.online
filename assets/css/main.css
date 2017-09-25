@@ -3568,11 +3568,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
         height: 74vh;
-        background-size: cover;
         width: 100%;
 		min-height: 35em;
+		background: gray no-repeat center / cover;
     }
 
     #banner .img-wrapper .text {
@@ -3582,7 +3581,6 @@
         background: #089e36;
         color: #d3d4e4;
         position: relative;
-		background: gray no-repeat center / cover;
     }
 
 	body.is-loading #banner h2 {
