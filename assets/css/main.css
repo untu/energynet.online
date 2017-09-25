@@ -3560,27 +3560,28 @@
 
 		}
 
+	#banner .carousel-wrapper {
+		top: 0;
+	}
 
     #banner .img-wrapper {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
 
-    #banner .img-wrapper .text {
-        text-align: center;
-        top: 400px;
-        position: absolute;
-        padding: 50px;
-        background: #089e36;
-        color: #d3d4e4;
-    }
-
-    #banner .img-wrapper .img {
         height: 74vh;
         background-size: cover;
         width: 100%;
 		min-height: 35em;
+    }
+
+    #banner .img-wrapper .text {
+        text-align: center;
+        top: 80px;
+        padding: 50px;
+        background: #089e36;
+        color: #d3d4e4;
+        position: relative;
     }
 
 	body.is-loading #banner h2 {
