@@ -3430,6 +3430,7 @@
 			position: relative;
 			z-index: 1;
             color: darkslategray;
+            text-shadow: 0px 0px 2px #ffffff;
 		}
 
 			#banner h2:before, #banner h2:after {
@@ -3580,6 +3581,8 @@
         padding: 50px;
         background: #089e36;
         color: #d3d4e4;
+        background: #2b343d;
+    	color: #ffffff;
         position: relative;
     }
 
