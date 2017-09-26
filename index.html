@@ -17,11 +17,8 @@
   <!--[if lte IE 9]>
   <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/slick-theme.css"/>
 
-
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
-
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
 
 </head>
 <body class="landing">
@@ -204,8 +201,7 @@
     <section class="spotlight">
       <div class="image">
          <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/DW_wsDjVyKc?rel=0" frameborder="0" allowfullscreen></iframe>  -->
-         <!-- <div class="youtube-player" data-id="DW_wsDjVyKc" style="width:560px;height:315px;"></div> -->
-         <div class="youtube-player" data-id="DW_wsDjVyKc" style="width:560px;height:315px;"></div>
+         <div class="youtube-player" data-id="DW_wsDjVyKc" style="width:560px;height:292px;"></div>
       </div>
       <div class="content">
         <h2>Демонстрационный Стенд</h2>
@@ -299,7 +295,7 @@
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.scrollex.min.js"></script>
 <script src="assets/js/jquery.scrolly.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+<script type="assets/js/slick.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script>
 <!--[if lte IE 8]>
@@ -378,7 +374,8 @@
         });
 
     function labnolThumb(id) {
-        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+        // var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+        var thumb = '<img src="images/videothumb.png">',
             play = '<div class="play"></div>';
         return thumb.replace("ID", id) + play;
     }
