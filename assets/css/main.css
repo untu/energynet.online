@@ -3575,6 +3575,7 @@
 		background: gray no-repeat center / cover;
     }
 
+
     #banner .img-wrapper .text {
         text-align: center;
         top: 80px;
@@ -3584,6 +3585,12 @@
         background: #2b343d;
     	color: #ffffff;
         position: relative;
+    }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+        #banner .img-wrapper .text { padding-top: 10px; }
+    }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 570px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+        #banner .img-wrapper .text { top:10px; padding-top: 50px; }
     }
 
 	body.is-loading #banner h2 {
